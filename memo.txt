@@ -11,3 +11,10 @@ git remote rename origin changed
 삭제하기 git remote remove <원격 저장소 이름>
 
 3. git push 원격 저장소에 밀어넣기
+git branch -M main 
+git branch -M <브랜치 이름> 을 main으로 변경
+로컬 master 깃허브 main
+git push -u origin main
+git push <원격 저장소 이름> <브랜치 이름>
+원격 저장소 해당 브랜치에 푸시
+-u는 처음 한 번만 하고 나중에 git push만 하면 알아서 됨
